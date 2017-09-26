@@ -25,7 +25,7 @@ def enumerator_for_split_number(arr):
 def biggest_index(base, number):
     i=0
     while(1):
-        if(base**i>=number):
+        if(base**i>number):
             break
         else:
             i+=1
